@@ -14,6 +14,10 @@ namespace ConsoleApp1
             Console.WriteLine("soyadinizi daxil edin");
             string soyad = Console.ReadLine();
 
+            Console.WriteLine("ata adinizi daxil edin");
+            string ataadi = Console.ReadLine();
+
+
             Console.WriteLine("yasinizi daxil edin");
             string yas = Console.ReadLine();
 
@@ -23,6 +27,7 @@ namespace ConsoleApp1
             Console.WriteLine($"Ad: {ad}");
             Console.WriteLine($"Soyad: {soyad}");
             Console.WriteLine($"Yas: {yas1}");
+            Console.WriteLine($"Ata adi: {ataadi}");
 
 
 
